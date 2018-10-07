@@ -1,0 +1,131 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	width: 100%;
+	height: 100vh;
+}
+.header{
+	overflow: auto;
+	background: linear-gradient(to right, #2D0038, #9725C1);
+	display: flex;
+	padding: 8rem 10rem 4rem;
+}
+.header .left, .header .right{
+	width: 50%;
+	color: #F5F5F5F5;
+	font-weight: bold;
+	padding: 0 2.5rem;
+	line-height: 40px;
+
+}
+.header .right {
+	color: gray;
+	border-left: gray solid 1px;
+	line-height: 20px;
+
+	
+}
+.header .right p, .left p{
+	margin-bottom: 3rem;
+}
+.header .right .get, .left .get, .text .get, .get{
+	background-color: green;
+	padding: .5rem 2rem;
+	border-radius: 2rem;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	box-shadow: 0 3px 5px gray;
+}
+
+/* CSS CONTAINER */
+.container{
+	background-color: #F5F5F5F5;
+}
+ .top
+{
+	display: flex;
+	padding: 4rem 9rem;
+	border-bottom: 1px solid gray;
+	box-shadow: 0 1px 1px gray;
+}
+.top .left, .top .right{
+	width: 50%;
+	padding: 0 2.5rem;
+	color: gray;
+}
+.top .left p{
+	line-height: 25px;
+}
+.left .get, .text .get, .get {
+	background-color: white;
+	color: black;
+	border:  1px solid gray;
+}
+.top .right{
+	border-left: #ddd solid 1px;
+}
+.top .right ul{
+	padding: 0;
+	list-style-type: none;
+	line-height: 50px;
+}
+.top .right ul i{
+	color: green;
+	margin-right: 10px;
+}
+
+.center{
+	background-color: #eee;
+	padding: 2rem 0;
+
+}
+.box-img {
+	width: 70%;
+	background-color: white;
+	margin: 2rem auto;
+	display: flex;
+}
+.box-img .text{
+	color: gray;
+	margin: 2rem 0 0 2rem ;
+	line-height: 25px;
+
+}
+.text p{
+	margin-bottom: 3rem;
+}
+.box-img img{
+	width: 400px;
+	height: 300px;
+}
+.vcl{
+	text-align: center;
+	margin: 2rem;
+}
+form {
+	/* display: flex; */
+}
+.row{
+	width: 50%;
+	margin-bottom: 2rem;
+	float: left;
+}
+.row input {
+	padding: .5rem 1rem;
+}
+.some textarea{
+	margin-bottom: 2rem;
+	width: 100%;
+}
+.banquyen{
+	text-align: center;
+	color: gray;
+	font-size: 14px;
+	margin: 2rem 0;
+}
